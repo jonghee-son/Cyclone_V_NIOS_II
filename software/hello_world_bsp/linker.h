@@ -2,9 +2,9 @@
  * linker.h - Linker script mapping information
  *
  * Machine generated for CPU 'nios2_gen2_0' in SOPC Builder design 'niosii_top'
- * SOPC Builder design path: c:/Users/EH408/Downloads/digital_system/NIOS2/niosii_top.sopcinfo
+ * SOPC Builder design path: C:/Users/jongh/Documents/repo/Cyclone_V_NIOS_II/niosii_top.sopcinfo
  *
- * Generated: Tue Jan 09 17:44:49 KST 2024
+ * Generated: Wed Jan 10 00:02:03 KST 2024
  */
 
 /*
@@ -65,9 +65,9 @@
  *
  */
 
-#define ONCHIP_MEMORY2_0_REGION_BASE 0x1020
-#define ONCHIP_MEMORY2_0_REGION_SPAN 4064
-#define RESET_REGION_BASE 0x1000
+#define ONCHIP_MEMORY2_0_REGION_BASE 0x10020
+#define ONCHIP_MEMORY2_0_REGION_SPAN 49120
+#define RESET_REGION_BASE 0x10000
 #define RESET_REGION_SPAN 32
 
 

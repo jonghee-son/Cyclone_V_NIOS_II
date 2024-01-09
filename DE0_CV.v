@@ -10,7 +10,10 @@ module DE0_CV(
 
 	//////////// KEY //////////
 	input 		     [3:0]		KEY,
-	input 		          		RESET_N
+	input 		          		RESET_N,
+	
+	//////////// LED //////////
+	input				  [9:0]		LED
 );
 
 
@@ -28,7 +31,8 @@ module DE0_CV(
 
     niosii_top u0 (
         .clk_1_clk       (CLOCK_50),       //   clk_1.clk
-        .reset_1_reset_n (RESET_N)  // reset_1.reset_n
+        .reset_1_reset_n (RESET_N),  // reset_1.reset_n
+		  .pio_0_external_connection_export (LED)
     );
 
 endmodule

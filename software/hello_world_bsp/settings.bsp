@@ -2,12 +2,12 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>Jan 9, 2024 5:44:46 PM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1704789886926</BspGeneratedUnixTimeStamp>
-        <BspGeneratedLocation>C:\Users\EH408\Downloads\digital_system\NIOS2\software\hello_world_bsp</BspGeneratedLocation>
-        <BspSettingsFile>.\settings.bsp</BspSettingsFile>
-        <SopcDesignFile>C:\Users\EH408\Downloads\digital_system\NIOS2\niosii_top.sopcinfo</SopcDesignFile>
-        <SystemFileHash>ac37265680d095c04228efbeb6f5a7289bc981e0e8ffb5d127ce24cdceac5668</SystemFileHash>
+        <BspGeneratedTimeStamp>Jan 10, 2024 12:02:02 AM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1704812522710</BspGeneratedUnixTimeStamp>
+        <BspGeneratedLocation>C:\Users\jongh\Documents\repo\Cyclone_V_NIOS_II\software\hello_world_bsp</BspGeneratedLocation>
+        <BspSettingsFile>settings.bsp</BspSettingsFile>
+        <SopcDesignFile>C:\Users\jongh\Documents\repo\Cyclone_V_NIOS_II\niosii_top.sopcinfo</SopcDesignFile>
+        <SystemFileHash>21a06c332cb0a74c3a0441828626c4ef9af5b1d85649132908324447cb35</SystemFileHash>
         <JdiFile>default</JdiFile>
         <Cpu>nios2_gen2_0</Cpu>
         <SchemaVersion>1.9</SchemaVersion>
@@ -901,13 +901,19 @@
         </Setting>
         <MemoryMap>
                 <slaveDescriptor>onchip_memory2_0</slaveDescriptor>
-                <addressRange>0x00001000 - 0x00001FFF</addressRange>
-                <addressSpan>4096</addressSpan>
+                <addressRange>0x00010000 - 0x0001BFFF</addressRange>
+                <addressSpan>49152</addressSpan>
                 <attributes>memory</attributes>
         </MemoryMap>
         <MemoryMap>
+                <slaveDescriptor>pio_0</slaveDescriptor>
+                <addressRange>0x00021010 - 0x0002101F</addressRange>
+                <addressSpan>16</addressSpan>
+                <attributes/>
+        </MemoryMap>
+        <MemoryMap>
                 <slaveDescriptor>jtag_uart_0</slaveDescriptor>
-                <addressRange>0x00003008 - 0x0000300F</addressRange>
+                <addressRange>0x00021028 - 0x0002102F</addressRange>
                 <addressSpan>8</addressSpan>
                 <attributes>printable</attributes>
         </MemoryMap>

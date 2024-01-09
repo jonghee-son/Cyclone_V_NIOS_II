@@ -1,7 +1,8 @@
 	component niosii_top is
 		port (
-			clk_1_clk       : in std_logic := 'X'; -- clk
-			reset_1_reset_n : in std_logic := 'X'  -- reset_n
+			clk_1_clk                        : in  std_logic                    := 'X'; -- clk
+			pio_0_external_connection_export : out std_logic_vector(9 downto 0);        -- export
+			reset_1_reset_n                  : in  std_logic                    := 'X'  -- reset_n
 		);
 	end component niosii_top;
 
