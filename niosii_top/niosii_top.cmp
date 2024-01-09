@@ -1,0 +1,7 @@
+	component niosii_top is
+		port (
+			clk_1_clk       : in std_logic := 'X'; -- clk
+			reset_1_reset_n : in std_logic := 'X'  -- reset_n
+		);
+	end component niosii_top;
+
