@@ -1,0 +1,9 @@
+22:29:43 **** Build of configuration Nios II for project hello_world_small ****
+wsl make all 
+Info: Building /mnt/c/Users/jongh/Documents/repo/Cyclone_V_NIOS_II/software/hello_world_small_bsp/
+make --no-print-directory -C /mnt/c/Users/jongh/Documents/repo/Cyclone_V_NIOS_II/software/hello_world_small_bsp/
+[BSP build complete]
+[hello_world_small build complete]
+
+22:29:48 Build Finished (took 4s.866ms)
+
