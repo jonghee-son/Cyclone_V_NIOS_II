@@ -7,7 +7,7 @@ int main()
 	int count = 0;
 	int delay;
 
-	printf("Hello from Nios II!\n"); // Serial output to JTAG UART
+	printf("Hello, World!\n"); // Serial output to JTAG UART
 
 	while(1)
 	{

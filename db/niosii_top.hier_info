@@ -5,16 +5,16 @@ KEY[1] => ~NO_FANOUT~
 KEY[2] => ~NO_FANOUT~
 KEY[3] => ~NO_FANOUT~
 RESET_N => RESET_N.IN1
-LED[0] => LED[0].IN1
-LED[1] => LED[1].IN1
-LED[2] => LED[2].IN1
-LED[3] => LED[3].IN1
-LED[4] => LED[4].IN1
-LED[5] => LED[5].IN1
-LED[6] => LED[6].IN1
-LED[7] => LED[7].IN1
-LED[8] => LED[8].IN1
-LED[9] => LED[9].IN1
+LED[0] <= niosii_top:u0.pio_0_external_connection_export
+LED[1] <= niosii_top:u0.pio_0_external_connection_export
+LED[2] <= niosii_top:u0.pio_0_external_connection_export
+LED[3] <= niosii_top:u0.pio_0_external_connection_export
+LED[4] <= niosii_top:u0.pio_0_external_connection_export
+LED[5] <= niosii_top:u0.pio_0_external_connection_export
+LED[6] <= niosii_top:u0.pio_0_external_connection_export
+LED[7] <= niosii_top:u0.pio_0_external_connection_export
+LED[8] <= niosii_top:u0.pio_0_external_connection_export
+LED[9] <= niosii_top:u0.pio_0_external_connection_export
 
 
 |DE0_CV|niosii_top:u0
