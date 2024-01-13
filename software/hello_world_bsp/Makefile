@@ -101,7 +101,7 @@ ACDS_VERSION := 22.1
 # BUILD_NUMBER: 917
 
 SETTINGS_FILE := settings.bsp
-SOPC_FILE := C:/Users/EH408/Downloads/digital_system/NIOS2/niosii_top.sopcinfo
+SOPC_FILE := ../../niosii_top.sopcinfo
 
 #-------------------------------------------------------------------------------
 #                             TOOL & COMMAND DEFINITIONS

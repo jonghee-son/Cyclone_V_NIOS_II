@@ -1,9 +1,9 @@
 # memory.gdb - GDB memory region definitions
 #
 # Machine generated for CPU 'nios2_gen2_0' in SOPC Builder design 'niosii_top'
-# SOPC Builder design path: C:/Users/EH408/Downloads/digital_system/NIOS2/niosii_top.sopcinfo
+# SOPC Builder design path: ../../niosii_top.sopcinfo
 #
-# Generated: Wed Jan 10 12:58:11 KST 2024
+# Generated: Sat Jan 13 10:26:56 KST 2024
 
 # DO NOT MODIFY THIS FILE
 #
