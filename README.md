@@ -1,5 +1,5 @@
 # Cyclone V Nios II
-Nios II RISC-V embedded processor implementation for DE0-CV (Cyclone V)
+Nios II RISC embedded processor implementation for DE0-CV (Cyclone V)
 ## Used IPs
 - Nios II Processor
 - Clock Bridge
