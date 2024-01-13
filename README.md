@@ -6,7 +6,7 @@ Nios II RISC-V embedded processor implementation for DE0-CV (Cyclone V)
 - Reset Bridge
 - On Chip Memory Intel FPGA IP
 - JTAG UART Intel FPGA IP
-- PIO (Paraller I/O) Intel FPGA IP
+- PIO (Parallel I/O) Intel FPGA IP
 ## Requirements
 - nios2eds</br>
 https://www.terasic.com.tw/wiki/Getting_Start_Install_Eclipse_IDE_into_Nios_EDS
