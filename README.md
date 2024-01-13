@@ -1,4 +1,4 @@
-# Cyclone V NIOS II
+# Cyclone V Nios II
 Nios II RISC-V embedded processor implementation for DE0-CV (Cyclone V)
 ## Used IPs
 - Nios II Processor
