@@ -4,7 +4,7 @@
  * Machine generated for CPU 'nios2_gen2_0' in SOPC Builder design 'niosii_top'
  * SOPC Builder design path: ../../niosii_top.sopcinfo
  *
- * Generated: Sat Jan 13 10:26:56 KST 2024
+ * Generated: Fri Feb 16 22:14:05 KST 2024
  */
 
 /*
@@ -188,7 +188,8 @@ SECTIONS
         *(.preinit_array)
         PROVIDE (__preinit_array_end = ABSOLUTE(.));
         PROVIDE (__init_array_start = ABSOLUTE(.));
-        *(.init_array)
+        KEEP(*(SORT_BY_INIT_PRIORITY(.init_array.*)));
+        KEEP(*(.init_array));
         PROVIDE (__init_array_end = ABSOLUTE(.));
         PROVIDE (__fini_array_start = ABSOLUTE(.));
         *(.fini_array)

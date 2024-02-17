@@ -1,6 +1,6 @@
 EDA Netlist Writer report for niosii_top
-Wed Jan 10 12:57:37 2024
-Quartus Prime Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition
+Fri Feb 16 22:17:02 2024
+Quartus Prime Version 23.1std.0 Build 991 11/28/2023 SC Lite Edition
 
 
 ---------------------
@@ -37,7 +37,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Wed Jan 10 12:57:37 2024 ;
+; EDA Netlist Writer Status ; Successful - Fri Feb 16 22:17:02 2024 ;
 ; Revision Name             ; niosii_top                            ;
 ; Top-level Entity Name     ; DE0_CV                                ;
 ; Family                    ; Cyclone V                             ;
@@ -66,13 +66,13 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------------------------------+-----------------------------+
 
 
-+-------------------------------------------------------------------------------+
-; Simulation Generated Files                                                    ;
-+-------------------------------------------------------------------------------+
-; Generated Files                                                               ;
-+-------------------------------------------------------------------------------+
-; C:/Users/EH408/Downloads/digital_system/NIOS2/simulation/questa/niosii_top.vo ;
-+-------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------+
+; Simulation Generated Files                                                      ;
++---------------------------------------------------------------------------------+
+; Generated Files                                                                 ;
++---------------------------------------------------------------------------------+
+; C:/Users/jongh/Documents/repo/Cyclone_V_NIOS_II/simulation/questa/niosii_top.vo ;
++---------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -80,15 +80,15 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
-    Info: Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition
-    Info: Processing started: Wed Jan 10 12:57:33 2024
+    Info: Version 23.1std.0 Build 991 11/28/2023 SC Lite Edition
+    Info: Processing started: Fri Feb 16 22:17:00 2024
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off niosii -c niosii_top
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (204019): Generated file niosii_top.vo in folder "C:/Users/EH408/Downloads/digital_system/NIOS2/simulation/questa/" for EDA simulation tool
+Info (204019): Generated file niosii_top.vo in folder "C:/Users/jongh/Documents/repo/Cyclone_V_NIOS_II/simulation/questa/" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4741 megabytes
-    Info: Processing ended: Wed Jan 10 12:57:37 2024
-    Info: Elapsed time: 00:00:04
-    Info: Total CPU time (on all processors): 00:00:03
+    Info: Peak virtual memory: 4747 megabytes
+    Info: Processing ended: Fri Feb 16 22:17:03 2024
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:01
 
 

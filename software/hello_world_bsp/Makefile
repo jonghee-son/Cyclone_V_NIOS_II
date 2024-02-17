@@ -35,7 +35,7 @@ endif
 eq = $(and $(findstring $(1),$(2)),$(findstring $(2),$(1)))
 
 ifdef WINDOWS_EXE 
-	adjust-path = $(if $1,$(shell wslpath "$1"),)
+	adjust-path = $(if $1,$(if $(filter $1,.),.,$(shell wslpath "$1")),)
 	adjust-path-mixed = $(if $(call eq,$(shell echo $1 | head -c 5),/mnt/),$(shell echo $1 | sed 's/\/mnt\///g;s/\//:\//1'),$1)
 else # !WINDOWS_EXE
 	adjust-path = $1
@@ -93,12 +93,12 @@ OBJ_DIR := ./obj
 
 # This following VERSION comment indicates the version of the tool used to 
 # generate this makefile. A makefile variable is provided for VERSION as well. 
-# ACDS_VERSION: 22.1
-ACDS_VERSION := 22.1
+# ACDS_VERSION: 23.1
+ACDS_VERSION := 23.1
 
 # This following BUILD_NUMBER comment indicates the build number of the tool 
 # used to generate this makefile. 
-# BUILD_NUMBER: 917
+# BUILD_NUMBER: 991
 
 SETTINGS_FILE := settings.bsp
 SOPC_FILE := ../../niosii_top.sopcinfo

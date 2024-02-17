@@ -2,12 +2,12 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>Jan 13, 2024 10:26:55 AM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1705109215285</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>Feb 16, 2024 10:14:04 PM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1708089244782</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>C:\Users\jongh\Documents\repo\Cyclone_V_NIOS_II\software\hello_world_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>..\..\niosii_top.sopcinfo</SopcDesignFile>
-        <SystemFileHash>cf8dd9cdaf68a332b22b37f42da8b951c4be514b917a3748388a20434987</SystemFileHash>
+        <SystemFileHash>5629d16f37c468715b61f8f4fba76fefad3a1863955fd3e465acda43907210</SystemFileHash>
         <JdiFile>default</JdiFile>
         <Cpu>nios2_gen2_0</Cpu>
         <SchemaVersion>1.9</SchemaVersion>
